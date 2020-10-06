@@ -81,7 +81,6 @@ public class plano extends JPanel {
        g2d.setColor(Color.red);
        for (int x = 0; x < 150; x++){
        Y = b0+(b1*x);
-       System.out.println(x+" "+Y);
        g2d.drawLine((int) coordX(x),(int) coordY(Y), (int) coordX(x), (int) coordY(Y));
        }
     }
